@@ -657,3 +657,8 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [23May2025 05:16:02.622] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Jeyysz: Set own game mode to Survival Mode]
 [23May2025 05:16:25.657] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [23May2025 05:16:25.666] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[23May2025 05:19:49.173] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jeyysz lost connection: Disconnected
+[23May2025 05:19:49.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jeyysz left the game
+[23May2025 05:20:49.169] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
+[23May2025 05:20:49.178] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[23May2025 05:20:49.192] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
