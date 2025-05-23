@@ -1,40 +1,373 @@
-[15:16:36] [main/INFO]: Loading Minecraft 1.21.3 with Fabric Loader 0.16.9
-[15:16:36] [main/INFO]: Loading 4 mods:
+[16:07:49] [main/INFO]: Loading Minecraft 1.21.3 with Fabric Loader 0.16.9
+[16:07:50] [main/INFO]: Loading 13 mods:
+	- distanthorizons 2.3.2-b
+	   |-- fabric-api-base 0.4.50+119c825640
+	   |-- fabric-command-api-v2 2.2.37+c9d82ab240
+	   |-- fabric-entity-events-v1 2.0.8+825023f840
+	   |-- fabric-events-interaction-v0 2.0.12+c2c3ac4740
+	   |-- fabric-key-binding-api-v1 1.0.53+fd37071f40
+	   |-- fabric-lifecycle-events-v1 2.5.1+6da5ef6940
+	   |-- fabric-networking-api-v1 4.3.5+fd37071f40
+	   |-- fabric-rendering-v1 8.0.8+6922831640
+	   |-- fabric-resource-loader-v0 3.0.6+fd37071f40
+	   \-- fabric-screen-api-v1 2.0.34+fd37071f40
 	- fabricloader 0.16.9
 	   \-- mixinextras 0.4.1
 	- java 21
+	- lithium 0.14.6+mc1.21.3
 	- minecraft 1.21.3
-[15:16:36] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/1571_msx/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[15:16:46] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[15:16:46] [main/WARN]: Missing data pack fabric
-[15:16:49] [main/INFO]: Loaded 1337 recipes
-[15:16:49] [main/INFO]: Loaded 1448 advancements
-[15:16:49] [Server thread/INFO]: Starting minecraft server version 1.21.3
-[15:16:49] [Server thread/INFO]: Loading properties
-[15:16:49] [Server thread/INFO]: Default game type: SURVIVAL
-[15:16:49] [Server thread/INFO]: Generating keypair
-[15:16:49] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:16:49] [Server thread/INFO]: Using epoll channel type
-[15:16:49] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[15:16:49] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[15:16:49] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[15:16:49] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[15:16:49] [Server thread/INFO]: Preparing level "world"
-[15:16:50] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:16:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:16:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:16:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:16:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:16:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:16:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:16:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:16:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:16:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:16:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:16:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:16:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:16:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:16:56] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[15:16:57] [Server thread/INFO]: Time elapsed: 6855 ms
-[15:16:57] [Server thread/INFO]: Done (7.244s)! For help, type "help"
-[15:17:57] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[16:07:50] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/1571_msx/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[16:07:50] [main/INFO]: Compatibility level set to JAVA_21
+[16:07:50] [main/INFO]: Loaded configuration file for Lithium: 140 options available, 0 override(s) found
+[16:07:51] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[16:08:01] [main/INFO]: Initializing Distant Horizons server.
+[16:08:01] [main/INFO]: Distant Horizons, Version: 2.3.2-b
+[16:08:01] [main/INFO]: Registering Fabric Server Events
+[16:08:01] [main/INFO]: Distant Horizons server Initialized.
+[16:08:01] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16:08:04] [main/INFO]: Loaded 1337 recipes
+[16:08:04] [main/INFO]: Loaded 1448 advancements
+[16:08:05] [Server thread/INFO]: Initialising config for DistantHorizons
+[16:08:05] [Server thread/INFO]: Config for DistantHorizons initialised
+[16:08:05] [Server thread/WARN]: Multiple potential preset options [LOW_IMPACT, BALANCED], defaulting to the first one.
+[16:08:05] [Server thread/INFO]: Post-Initializing Mod
+[16:08:05] [Server thread/INFO]: Mod Post-Initialized
+[16:08:05] [Server thread/INFO]: Checking for Distant Horizons update
+[16:08:06] [Server thread/INFO]: Distant Horizons already up to date.
+[16:08:06] [Server thread/INFO]: Dedicated server initialized at 
+[16:08:06] [Server thread/INFO]: Started [DhServerWorld] of type [SERVER_ONLY].
+[16:08:06] [Server thread/INFO]: Starting minecraft server version 1.21.3
+[16:08:06] [Server thread/INFO]: Loading properties
+[16:08:06] [Server thread/INFO]: Default game type: SURVIVAL
+[16:08:06] [Server thread/INFO]: Generating keypair
+[16:08:06] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:08:06] [Server thread/INFO]: Using epoll channel type
+[16:08:06] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:08:06] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:08:06] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:08:06] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:08:06] [Server thread/INFO]: Preparing level "world"
+[16:08:07] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [minecraft:overworld]-[./world/data]...
+[16:08:07] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
+[16:08:07] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:overworld}] at [[LocalSaveStructure@(./world/data)]].
+[16:08:07] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[16:08:07] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [minecraft:the_nether]-[./world/DIM-1/data]...
+[16:08:07] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
+[16:08:07] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[16:08:07] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:the_nether}] at [[LocalSaveStructure@(./world/DIM-1/data;./world/data)]].
+[16:08:07] [DH-Full Data Migration Thread[0]/INFO]: Attempting to migrate data sources for: [minecraft:the_end]-[./world/DIM1/data]...
+[16:08:07] [DH-Full Data Migration Thread[0]/INFO]: Found [0] data sources that need migration.
+[16:08:07] [DH-Full Data Migration Thread[0]/INFO]: No migration necessary.
+[16:08:07] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:the_end}] at [[LocalSaveStructure@(./world/DIM-1/data;./world/DIM1/data;./world/data)]].
+[16:08:07] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:08:08] [DH-ApplyConfigPresetTimer/INFO]: changing preset to: LOW_IMPACT
+[16:08:08] [DH-ApplyConfigPresetTimer/WARN]: Multiple potential preset options [LOW_IMPACT, BALANCED], defaulting to the first one.
+[16:08:08] [DH-ApplyConfigPresetTimer/INFO]: changing preset to: MEDIUM
+[16:08:08] [DH-ApplyConfigPresetTimer/INFO]: preset active: LOW_IMPACT
+[16:08:08] [DH-ApplyConfigPresetTimer/INFO]: preset active: MEDIUM
+[16:08:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:08:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:08:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:08:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:08:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:08:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:08:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:08:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:08:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:08:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:08:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:08:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:08:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:08:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:08:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:08:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:08:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:08:16] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[16:08:16] [Server thread/INFO]: Time elapsed: 9207 ms
+[16:08:16] [Server thread/INFO]: Done (10.151s)! For help, type "help"
+[16:08:16] [Server thread/INFO]: DH TerraFirmaCraft detection: false
+[16:08:16] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
+[16:08:16] [Server thread/INFO]: Batch Chunk Generator initialized
+[16:08:16] [Server thread/INFO]: Creating world gen queue
+[16:08:16] [Server thread/INFO]: Created world gen queue
+[16:08:16] [Server thread/INFO]: Set world gen queue for level [minecraft:the_nether].
+[16:08:16] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
+[16:08:16] [Server thread/INFO]: Batch Chunk Generator initialized
+[16:08:16] [Server thread/INFO]: Creating world gen queue
+[16:08:16] [Server thread/INFO]: Created world gen queue
+[16:08:16] [Server thread/INFO]: Set world gen queue for level [minecraft:the_end].
+[16:08:16] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
+[16:08:16] [Server thread/INFO]: Batch Chunk Generator initialized
+[16:08:16] [Server thread/INFO]: Creating world gen queue
+[16:08:16] [Server thread/INFO]: Created world gen queue
+[16:08:16] [Server thread/INFO]: Set world gen queue for level [minecraft:overworld].
+[16:09:16] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[16:10:58] [Server thread/INFO]: Jeyysz[/127.4.101.204:39385] logged in with entity id 9 at (131.69999998807907, 61.03268366221369, 384.0091261701485)
+[16:10:58] [Server thread/INFO]: Player [Jeyysz] joined.
+[16:10:58] [Server thread/INFO]: Jeyysz joined the game
+[16:12:23] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-26, y=51, z=1068}
+[16:12:23] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-26, y=50, z=1068}
+[16:12:23] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-26, y=49, z=1068}
+[16:12:23] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-25, y=51, z=1068}
+[16:12:23] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-25, y=50, z=1068}
+[16:12:23] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-25, y=49, z=1068}
+[16:12:23] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-27, y=51, z=1069}
+[16:12:23] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-27, y=50, z=1069}
+[16:12:23] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-26, y=51, z=1069}
+[16:12:23] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-26, y=50, z=1069}
+[16:12:23] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-26, y=49, z=1069}
+[16:12:23] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-25, y=51, z=1069}
+[16:12:23] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-25, y=50, z=1069}
+[16:12:23] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-24, y=50, z=1066}
+[16:12:23] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-24, y=49, z=1066}
+[16:12:23] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-24, y=48, z=1066}
+[16:12:23] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-27, y=50, z=1067}
+[16:12:23] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-26, y=50, z=1067}
+[16:12:23] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-26, y=49, z=1067}
+[16:12:23] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-25, y=50, z=1067}
+[16:12:23] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-25, y=49, z=1067}
+[16:12:23] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-24, y=50, z=1067}
+[16:12:23] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-24, y=49, z=1067}
+[16:12:23] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-27, y=50, z=1068}
+[16:12:25] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-224, y=57, z=1035}
+[16:12:25] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-223, y=57, z=1035}
+[16:12:25] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-224, y=57, z=1036}
+[16:12:25] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-224, y=56, z=1036}
+[16:12:26] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=517, y=56, z=-65}
+[16:12:26] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=517, y=55, z=-65}
+[16:12:28] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=543, y=4, z=-89}
+[16:12:28] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=543, y=4, z=-88}
+[16:12:28] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=543, y=5, z=-88}
+[16:12:28] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=543, y=6, z=-88}
+[16:12:38] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=34, y=60, z=1037}
+[16:12:38] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=38, y=64, z=1037}
+[16:12:38] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=38, y=63, z=1037}
+[16:12:38] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=38, y=62, z=1037}
+[16:12:38] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=36, y=63, z=1038}
+[16:12:38] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=36, y=62, z=1038}
+[16:12:38] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=36, y=61, z=1038}
+[16:12:38] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=37, y=63, z=1038}
+[16:12:38] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=37, y=62, z=1038}
+[16:12:38] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=37, y=61, z=1038}
+[16:12:38] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=38, y=64, z=1038}
+[16:12:38] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=38, y=63, z=1038}
+[16:12:38] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=38, y=62, z=1038}
+[16:12:38] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=39, y=64, z=1038}
+[16:12:38] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=39, y=63, z=1038}
+[16:12:38] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=40, y=64, z=1038}
+[16:12:38] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=41, y=64, z=1038}
+[16:12:38] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=36, y=63, z=1039}
+[16:12:38] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=36, y=62, z=1039}
+[16:12:38] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=36, y=61, z=1039}
+[16:12:38] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=37, y=64, z=1039}
+[16:12:38] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=37, y=63, z=1039}
+[16:12:38] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=37, y=62, z=1039}
+[16:12:38] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=38, y=64, z=1039}
+[16:12:38] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=38, y=63, z=1039}
+[16:12:38] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=38, y=62, z=1039}
+[16:12:38] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=39, y=64, z=1039}
+[16:12:38] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=39, y=63, z=1039}
+[16:12:38] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=40, y=64, z=1039}
+[16:12:38] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=41, y=64, z=1039}
+[16:12:38] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=42, y=64, z=1039}
+[16:12:49] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=538, y=57, z=-176}
+[16:12:49] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=538, y=56, z=-176}
+[16:12:49] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=537, y=57, z=-175}
+[16:12:49] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=538, y=56, z=-175}
+[16:12:49] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=538, y=55, z=-175}
+[16:12:49] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=533, y=57, z=-174}
+[16:12:49] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=534, y=57, z=-174}
+[16:12:49] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=534, y=56, z=-174}
+[16:12:49] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=535, y=57, z=-174}
+[16:12:49] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=535, y=56, z=-174}
+[16:12:49] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=536, y=57, z=-174}
+[16:12:49] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=536, y=56, z=-174}
+[16:12:49] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=536, y=55, z=-174}
+[16:12:49] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=537, y=56, z=-174}
+[16:12:49] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=533, y=56, z=-173}
+[16:12:49] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=533, y=55, z=-173}
+[16:12:49] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=533, y=54, z=-173}
+[16:12:49] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=533, y=53, z=-173}
+[16:12:49] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=534, y=54, z=-173}
+[16:12:49] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=534, y=53, z=-173}
+[16:12:49] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=531, y=57, z=-173}
+[16:12:49] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=531, y=56, z=-173}
+[16:12:49] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=532, y=56, z=-173}
+[16:12:49] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=532, y=55, z=-173}
+[16:12:49] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=532, y=54, z=-173}
+[16:12:49] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=532, y=53, z=-173}
+[16:12:49] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=532, y=53, z=-172}
+[16:12:54] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-562, y=64, z=667}
+[16:12:54] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-565, y=64, z=668}
+[16:12:54] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-564, y=64, z=668}
+[16:12:54] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-563, y=64, z=668}
+[16:12:54] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-562, y=64, z=668}
+[16:12:54] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-561, y=64, z=668}
+[16:12:54] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-560, y=64, z=668}
+[16:12:54] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-559, y=64, z=668}
+[16:12:54] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-565, y=64, z=669}
+[16:12:54] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-564, y=64, z=669}
+[16:12:54] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-563, y=64, z=669}
+[16:12:54] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-562, y=64, z=669}
+[16:12:54] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-561, y=64, z=669}
+[16:12:54] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-560, y=64, z=669}
+[16:12:54] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-559, y=64, z=669}
+[16:12:54] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-558, y=64, z=669}
+[16:12:54] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-565, y=64, z=670}
+[16:12:54] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-564, y=64, z=670}
+[16:12:54] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-563, y=64, z=670}
+[16:12:54] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-562, y=64, z=670}
+[16:12:54] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-561, y=64, z=670}
+[16:12:54] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-560, y=64, z=670}
+[16:12:54] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-559, y=64, z=670}
+[16:12:54] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-558, y=64, z=670}
+[16:12:54] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-557, y=64, z=670}
+[16:12:54] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-566, y=64, z=671}
+[16:12:54] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-565, y=64, z=671}
+[16:12:54] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-564, y=64, z=671}
+[16:12:54] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-563, y=64, z=671}
+[16:12:54] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-562, y=64, z=671}
+[16:12:54] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-561, y=64, z=671}
+[16:12:54] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-560, y=64, z=671}
+[16:12:54] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-559, y=64, z=671}
+[16:12:54] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-558, y=64, z=671}
+[16:12:54] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-557, y=64, z=671}
+[16:12:55] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-560, y=64, z=713}
+[16:12:55] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-560, y=63, z=713}
+[16:12:56] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=368, y=53, z=1043}
+[16:12:56] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=368, y=52, z=1043}
+[16:12:56] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=368, y=53, z=1044}
+[16:12:56] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=368, y=52, z=1044}
+[16:13:02] [Server thread/WARN]: Jeyysz moved too quickly! -17.292899226086867,-1.6798298185196643,-5.718817079240125
+[16:14:34] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-338, y=54, z=720}
+[16:14:34] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-337, y=54, z=720}
+[16:14:34] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-338, y=54, z=721}
+[16:14:34] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=-337, y=54, z=721}
+[16:17:38] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=96, y=55, z=-352}
+[16:17:38] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=96, y=54, z=-352}
+[16:17:38] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=97, y=55, z=-352}
+[16:17:38] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=98, y=55, z=-352}
+[16:17:38] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=96, y=55, z=-351}
+[16:17:38] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=97, y=55, z=-351}
+[16:17:38] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=98, y=55, z=-351}
+[16:17:38] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=96, y=55, z=-350}
+[16:17:38] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=97, y=55, z=-350}
+[16:17:38] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=98, y=55, z=-350}
+[16:17:38] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=113, y=12, z=-352}
+[16:17:38] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=114, y=12, z=-352}
+[16:17:38] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=112, y=13, z=-352}
+[16:17:38] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=14, y=59, z=-345}
+[16:17:38] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=14, y=58, z=-345}
+[16:17:38] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=14, y=57, z=-345}
+[16:17:38] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=15, y=60, z=-345}
+[16:17:38] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=15, y=59, z=-345}
+[16:17:38] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=15, y=58, z=-345}
+[16:17:38] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=15, y=57, z=-345}
+[16:17:38] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=15, y=56, z=-345}
+[16:17:38] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=13, y=59, z=-344}
+[16:17:38] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=14, y=60, z=-344}
+[16:17:38] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=14, y=59, z=-344}
+[16:17:38] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=14, y=58, z=-344}
+[16:17:38] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=15, y=60, z=-344}
+[16:17:38] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=15, y=59, z=-344}
+[16:17:38] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=15, y=58, z=-344}
+[16:17:38] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=15, y=57, z=-344}
+[16:17:38] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=15, y=56, z=-344}
+[16:17:38] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=13, y=60, z=-343}
+[16:17:38] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=14, y=60, z=-343}
+[16:17:38] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=14, y=59, z=-343}
+[16:17:38] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=15, y=58, z=-343}
+[16:17:38] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=14, y=60, z=-342}
+[16:17:38] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=15, y=60, z=-342}
+[16:17:38] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=15, y=59, z=-342}
+[16:17:38] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=14, y=60, z=-341}
+[16:17:38] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=15, y=60, z=-341}
+[16:17:39] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=62, y=32, z=-369}
+[16:17:39] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=63, y=32, z=-369}
+[16:17:39] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=61, y=33, z=-369}
+[16:17:39] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=62, y=33, z=-369}
+[16:17:44] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=105, y=58, z=-416}
+[16:17:44] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=105, y=57, z=-416}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=15, y=52, z=-430}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=34, y=50, z=-412}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=32, y=50, z=-411}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=33, y=50, z=-411}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=34, y=50, z=-411}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=32, y=50, z=-410}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=33, y=50, z=-410}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=34, y=50, z=-410}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=35, y=50, z=-410}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=32, y=50, z=-409}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=33, y=50, z=-409}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=34, y=50, z=-409}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=32, y=50, z=-408}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=33, y=50, z=-408}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=34, y=50, z=-408}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=34, y=49, z=-408}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=32, y=50, z=-407}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=33, y=50, z=-407}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=32, y=50, z=-406}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=32, y=49, z=-406}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=47, y=53, z=-431}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=46, y=53, z=-430}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=46, y=52, z=-430}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=47, y=53, z=-430}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=46, y=53, z=-429}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=46, y=52, z=-429}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=47, y=53, z=-429}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=47, y=52, z=-429}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=46, y=53, z=-428}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=46, y=52, z=-428}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=47, y=53, z=-428}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=47, y=52, z=-428}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=45, y=53, z=-427}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=45, y=52, z=-427}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=46, y=53, z=-427}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=46, y=52, z=-427}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=47, y=53, z=-427}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=47, y=52, z=-427}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=46, y=53, z=-426}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=46, y=52, z=-426}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=47, y=53, z=-426}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=47, y=52, z=-426}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=46, y=53, z=-425}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=46, y=52, z=-425}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=47, y=53, z=-425}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=47, y=52, z=-425}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=46, y=53, z=-424}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=46, y=52, z=-424}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=47, y=53, z=-424}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=47, y=52, z=-424}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=47, y=53, z=-423}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=47, y=52, z=-423}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=47, y=51, z=-423}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=62, y=56, z=-416}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=63, y=56, z=-416}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=64, y=56, z=-416}
+[16:17:45] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=63, y=56, z=-415}
+[16:17:46] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=52, y=58, z=-384}
+[16:17:46] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=53, y=58, z=-384}
+[16:17:46] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=55, y=59, z=-384}
+[16:17:46] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=56, y=59, z=-384}
+[16:17:46] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=57, y=59, z=-384}
+[16:17:46] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=58, y=59, z=-384}
+[16:17:46] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=52, y=58, z=-383}
+[16:17:46] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=53, y=58, z=-383}
+[16:17:46] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=55, y=59, z=-383}
+[16:17:46] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=56, y=59, z=-383}
+[16:17:46] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=58, y=59, z=-383}
+[16:17:46] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=55, y=59, z=-382}
+[16:17:46] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=56, y=59, z=-382}
+[16:17:46] [DH-PriorityTaskPicker Thread[0]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=55, y=59, z=-381}
+[16:17:47] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=111, y=57, z=-457}
+[16:17:47] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=111, y=55, z=-457}
+[16:17:47] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=111, y=57, z=-456}
+[16:17:47] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=111, y=55, z=-456}
+[16:17:47] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=110, y=57, z=-455}
+[16:17:47] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=110, y=55, z=-455}
+[16:17:47] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=111, y=57, z=-455}
+[16:17:47] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=111, y=55, z=-455}
+[16:17:47] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=111, y=57, z=-454}
+[16:17:47] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=111, y=55, z=-454}
+[16:17:47] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=111, y=57, z=-453}
+[16:17:47] [DH-PriorityTaskPicker Thread[1]/ERROR]: Trying to schedule tick in not loaded position class_2338{x=111, y=56, z=-453}
