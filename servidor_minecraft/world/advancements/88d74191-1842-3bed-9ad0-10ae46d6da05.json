@@ -119,6 +119,12 @@
     },
     "done": true
   },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2025-05-23 04:44:14 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/brown_shulker_box": {
     "criteria": {
       "has_shulker_box": "2025-05-23 04:25:21 +0000"

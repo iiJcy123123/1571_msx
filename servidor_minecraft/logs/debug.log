@@ -630,3 +630,10 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [23May2025 04:31:25.664] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [23May2025 04:36:25.651] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [23May2025 04:36:25.663] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[23May2025 04:41:25.646] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[23May2025 04:41:25.667] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[23May2025 04:44:14.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jeyysz has reached the goal [Sky's the Limit]
+[23May2025 04:46:25.673] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[23May2025 04:46:25.692] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[23May2025 04:49:02.339] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jeyysz has made the advancement [Diamonds!]
+[23May2025 04:49:06.379] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jeyysz has made the advancement [Acquire Hardware]
