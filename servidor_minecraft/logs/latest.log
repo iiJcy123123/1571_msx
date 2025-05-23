@@ -78,3 +78,19 @@
 [23May2025 05:19:49.173] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jeyysz lost connection: Disconnected
 [23May2025 05:19:49.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jeyysz left the game
 [23May2025 05:20:49.169] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
+[23May2025 05:31:40.150] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Jeyysz[/127.38.55.50:45919] logged in with entity id 8867 at (93.49420063103754, 92.5, 424.2138642614016)
+[23May2025 05:31:40.196] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jeyysz joined the game
+[23May2025 05:31:47.872] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jeyysz lost connection: Disconnected
+[23May2025 05:31:47.873] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jeyysz left the game
+[23May2025 05:32:47.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
+[23May2025 05:37:59.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[23May2025 05:37:59.819] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[23May2025 05:37:59.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[23May2025 05:37:59.821] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[23May2025 05:37:59.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23May2025 05:37:59.898] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[23May2025 05:37:59.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[23May2025 05:37:59.968] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23May2025 05:37:59.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23May2025 05:37:59.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23May2025 05:37:59.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
