@@ -170,3 +170,74 @@
 [26May2025 16:13:47.510] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jeyysz lost connection: Disconnected
 [26May2025 16:13:47.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Jeyysz left the game
 [26May2025 16:13:47.513] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.api.internal.ServerApi/]: Player [Jeyysz] disconnected.
+[26May2025 16:25:45.997] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.world.AbstractDhWorld/]: Unloading level [minecraft:overworld].
+[26May2025 16:25:45.999] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Closing world gen queue
+[26May2025 16:25:46.001] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Closing WorldGenerationQueue...
+[26May2025 16:25:46.001] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Awaiting world generator thread pool termination...
+[26May2025 16:25:46.002] [Server thread/WARN] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: World generator thread pool shutdown didn't complete after [3] seconds. Some world generator requests may still be running.
+[26May2025 16:25:46.002] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.BatchGenerator/]: BatchGenerator shutting down...
+[26May2025 16:25:46.002] [Server thread/INFO] [LodWorldGen/]: BatchGenerationEnvironment shutting down...
+[26May2025 16:25:46.002] [Server thread/INFO] [LodWorldGen/]: Canceling in progress generation event futures...
+[26May2025 16:25:46.007] [Server thread/INFO] [LodWorldGen/]: BatchGenerationEnvironment shutdown complete.
+[26May2025 16:25:46.007] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Finished closing WorldGenerationQueue
+[26May2025 16:25:46.208] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{ib87mtilat7o8@minecraft:overworld}].
+[26May2025 16:25:46.208] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{ib87mtilat7o8@minecraft:overworld}].
+[26May2025 16:25:46.209] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Closing database connection: [jdbc:dh_sqlite:./world/data/DistantHorizons.sqlite]...
+[26May2025 16:25:46.209] [DH-Parent Update Queue [minecraft:overworld] Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: Update thread [DH-Parent Update Queue [minecraft:overworld] Thread[0]] terminated.
+[26May2025 16:25:46.214] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Finished closing database connection: [jdbc:dh_sqlite:./world/data/DistantHorizons.sqlite]
+[26May2025 16:25:46.214] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:overworld}].
+[26May2025 16:25:46.414] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{ib87mtilat7o8@minecraft:overworld}].
+[26May2025 16:25:46.414] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{ib87mtilat7o8@minecraft:overworld}].
+[26May2025 16:25:46.415] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:overworld}].
+[26May2025 16:25:46.415] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.world.AbstractDhWorld/]: Unloading level [minecraft:the_end].
+[26May2025 16:25:46.415] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Closing world gen queue
+[26May2025 16:25:46.415] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Closing WorldGenerationQueue...
+[26May2025 16:25:46.418] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Awaiting world generator thread pool termination...
+[26May2025 16:25:46.418] [Server thread/WARN] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: World generator thread pool shutdown didn't complete after [3] seconds. Some world generator requests may still be running.
+[26May2025 16:25:46.418] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.BatchGenerator/]: BatchGenerator shutting down...
+[26May2025 16:25:46.418] [Server thread/INFO] [LodWorldGen/]: BatchGenerationEnvironment shutting down...
+[26May2025 16:25:46.418] [Server thread/INFO] [LodWorldGen/]: Canceling in progress generation event futures...
+[26May2025 16:25:46.419] [Server thread/INFO] [LodWorldGen/]: BatchGenerationEnvironment shutdown complete.
+[26May2025 16:25:46.419] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Finished closing WorldGenerationQueue
+[26May2025 16:25:46.619] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{ib87mtilat7o8@minecraft:the_end}].
+[26May2025 16:25:46.619] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{ib87mtilat7o8@minecraft:the_end}].
+[26May2025 16:25:46.619] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Closing database connection: [jdbc:dh_sqlite:./world/DIM1/data/DistantHorizons.sqlite]...
+[26May2025 16:25:46.620] [DH-Parent Update Queue [minecraft:the_end] Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: Update thread [DH-Parent Update Queue [minecraft:the_end] Thread[0]] terminated.
+[26May2025 16:25:46.620] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Finished closing database connection: [jdbc:dh_sqlite:./world/DIM1/data/DistantHorizons.sqlite]
+[26May2025 16:25:46.620] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:the_end}].
+[26May2025 16:25:46.820] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{ib87mtilat7o8@minecraft:the_end}].
+[26May2025 16:25:46.820] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{ib87mtilat7o8@minecraft:the_end}].
+[26May2025 16:25:46.820] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:the_end}].
+[26May2025 16:25:46.821] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.world.AbstractDhWorld/]: Unloading level [minecraft:the_nether].
+[26May2025 16:25:46.821] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Closing world gen queue
+[26May2025 16:25:46.821] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Closing WorldGenerationQueue...
+[26May2025 16:25:46.821] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Awaiting world generator thread pool termination...
+[26May2025 16:25:46.821] [Server thread/WARN] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: World generator thread pool shutdown didn't complete after [3] seconds. Some world generator requests may still be running.
+[26May2025 16:25:46.821] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.BatchGenerator/]: BatchGenerator shutting down...
+[26May2025 16:25:46.821] [Server thread/INFO] [LodWorldGen/]: BatchGenerationEnvironment shutting down...
+[26May2025 16:25:46.821] [Server thread/INFO] [LodWorldGen/]: Canceling in progress generation event futures...
+[26May2025 16:25:46.821] [Server thread/INFO] [LodWorldGen/]: BatchGenerationEnvironment shutdown complete.
+[26May2025 16:25:46.821] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.generation.WorldGenerationQueue/]: Finished closing WorldGenerationQueue
+[26May2025 16:25:47.021] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{ib87mtilat7o8@minecraft:the_nether}].
+[26May2025 16:25:47.022] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{ib87mtilat7o8@minecraft:the_nether}].
+[26May2025 16:25:47.022] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Closing database connection: [jdbc:dh_sqlite:./world/DIM-1/data/DistantHorizons.sqlite]...
+[26May2025 16:25:47.022] [DH-Parent Update Queue [minecraft:the_nether] Thread[0]/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV2/]: Update thread [DH-Parent Update Queue [minecraft:the_nether] Thread[0]] terminated.
+[26May2025 16:25:47.023] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Finished closing database connection: [jdbc:dh_sqlite:./world/DIM-1/data/DistantHorizons.sqlite]
+[26May2025 16:25:47.023] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:the_nether}].
+[26May2025 16:25:47.224] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.AbstractDataSourceHandler/]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{ib87mtilat7o8@minecraft:the_nether}].
+[26May2025 16:25:47.224] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.file.fullDatafile.FullDataSourceProviderV1/]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{ib87mtilat7o8@minecraft:the_nether}].
+[26May2025 16:25:47.224] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:the_nether}].
+[26May2025 16:25:47.225] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.world.AbstractDhWorld/]: Closed DhWorld of type [SERVER_ONLY].
+[26May2025 16:25:47.225] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.world.AbstractDhWorld/]: Closed DhWorld of type [SERVER_ONLY].
+[26May2025 16:25:47.226] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.util.threading.PriorityTaskPicker/]: Shutting down PriorityTaskPicker thread pool...
+[26May2025 16:25:47.227] [Server thread/INFO] [DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Closing all [0] database connections...
+[26May2025 16:25:47.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[26May2025 16:25:47.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[26May2025 16:25:47.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[26May2025 16:25:47.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[26May2025 16:25:48.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[26May2025 16:25:48.191] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[26May2025 16:25:48.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[26May2025 16:25:48.267] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[26May2025 16:25:48.267] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[26May2025 16:25:48.268] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
