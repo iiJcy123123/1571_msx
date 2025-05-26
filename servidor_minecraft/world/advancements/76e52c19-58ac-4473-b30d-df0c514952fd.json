@@ -1,0 +1,22 @@
+{
+  "dungeons_arise:wda_root": {
+    "criteria": {
+      "WDA": "2025-05-26 05:09:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-05-26 05:09:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:river": "2025-05-26 05:12:30 +0000",
+      "minecraft:plains": "2025-05-26 05:09:59 +0000"
+    },
+    "done": false
+  },
+  "DataVersion": 3465
+}
