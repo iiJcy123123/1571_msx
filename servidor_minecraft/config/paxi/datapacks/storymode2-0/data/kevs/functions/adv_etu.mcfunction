@@ -1,1 +1,0 @@
-execute as @p at @p run ftbquests change_progress @p complete 6A6619D771325905
